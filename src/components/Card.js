@@ -4,18 +4,7 @@ import "../style/Card.css";
 const Card = ({ post }) => {
   const printDate = (numbers) => {
     const months = [
-      "Jan",
-      "Feb",
-      "Mar",
-      "Apr",
-      "May",
-      "Jun",
-      "Jul",
-      "Aug",
-      "Sep",
-      "Oct",
-      "Nov",
-      "Dec",
+      "Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"
     ];
     const date = new Date(numbers);
     const month = months[date.getMonth()];
